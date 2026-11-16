@@ -3,9 +3,9 @@
   "appName": "CareCircle",
   "webDir": "www",
   "server": {
-    "url": "https://carecircle.netlify.app",
+    "url": "https://carecircle3.netlify.app",
     "allowNavigation": [
-      "carecircle.netlify.app",
+      "carecircle3.netlify.app",
       "*.supabase.co"
     ],
     "errorPath": "offline.html"
