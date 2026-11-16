@@ -1,0 +1,30 @@
+{
+  "appId": "com.carecircle.app",
+  "appName": "CareCircle",
+  "webDir": "www",
+  "server": {
+    "url": "https://carecircle.netlify.app",
+    "allowNavigation": [
+      "carecircle.netlify.app",
+      "*.supabase.co"
+    ],
+    "errorPath": "offline.html"
+  },
+  "ios": {
+    "contentInset": "never",
+    "scheme": "CareCircle"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "launchFadeOutDuration": 200,
+      "showSpinner": false,
+      "backgroundColor": "#FFFFFF"
+    },
+    "StatusBar": {
+      "overlaysWebView": false,
+      "style": "LIGHT",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
