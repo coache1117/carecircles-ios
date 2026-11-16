@@ -11,7 +11,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.carecircle.app
+        bundle_identifier: com.carecircle.app1
       node: 22
       xcode: latest
       cocoapods: default
